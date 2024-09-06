@@ -659,7 +659,6 @@
                             
                             if (invalidFields.length === 0) {
                                 // Send data to the server
-                                
 
                                 submitData(data);
                             } else {

@@ -19,4 +19,5 @@ class SurveyModel extends Model
     protected $useTimestamps = true;
     protected $updatedField = 'updated_at';
     protected $createdField = 'created_at';
+    
 }

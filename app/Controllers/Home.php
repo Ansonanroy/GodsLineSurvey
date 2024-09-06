@@ -80,7 +80,6 @@ class Home extends BaseController
             'followup_method' => $json->followup_method,
             'updated_at' => date('Y-m-d H:i:s')
         ];
-    
         
 
         if ($surveyModel->insert($data)) {
